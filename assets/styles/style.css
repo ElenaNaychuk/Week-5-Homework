@@ -3,25 +3,82 @@
     padding: 0;
 }
 
-.header {
+body {
+    max-width: 1440;
+    margin: 0 auto;
+}
+
+.header {            /* Самый верхний блок */
     height: 10vh;
 }
 
-.row {
-    text-align: center;
-}
-
-.footer {
-    display: flex;
-    height: 15vh;
-    color: white;
-    align-items: center;
-    justify-content: center;
-}
-.card {
+.header__logo img {
+    width: 100%;
     height: 100%;
 }
 
-.card-body {
+.header__button-card {    /* Кнопка "КОРЗИНА" */
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #5222D0;
+}
+
+.welcome {
+    flex-wrap: wrap;
+}
+
+.welcome__text {
+    color: #000000;
+}
+
+.welcome__button button {     /* Кнопка "КУПИТЬ" */
+    display: block; 
+    border-radius: 100px;
+    background-color: #5222D0;
+    color: #FFFFFF;
+}
+
+.main-picture {   /* Основная картинка */
+    width: 100%;
+}
+
+.nav-item a {     /* Меню кнопки синего цвета */
+    color: #5222D0;
+}
+
+.welcome__menu {
+    margin-top: 13vh;
+}
+
+/* Вторая страница ВОЗМОЖНОСТИ */
+
+.advantages {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages-3 {
+    margin: 0 auto;
+}
+
+.card img{
+    height: 45vh;
+    background: #EC615B;
+}
+
+.advantages__title {
+    color: #000000;
+}
+
+.advantages__text {
+    color: #000000;
+}
+
+.column-form {
+    margin: 0 auto;
+    background: #EC615B;
+}
+
+.welcome__menu_black .nav-item a {  /* Меню кнопки чёрного цвета */
+    color: #000000;
 }
